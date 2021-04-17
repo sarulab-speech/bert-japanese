@@ -33,3 +33,4 @@ seq -f %02g 1 200|xargs -L 1 -I {} -P 20 python create_pretraining_data.py \
 --max_seq_length 512 \
 --max_predictions_per_seq 80 \
 --dupe_factor 10
+udo 
