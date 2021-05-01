@@ -8,8 +8,9 @@ python3 models/official/nlp/bert/run_pretraining.py \
 --max_predictions_per_seq=80 \
 --train_batch_size=32 \
 --learning_rate=1e-4 \
---num_train_epochs=100 \
---num_steps_per_epoch=10000 \
+--num_train_epochs=2 \
+--num_steps_per_epoch=100 \
 --optimizer_type=adamw \
 --warmup_steps=10000 \
---num_gpus=2
+--num_gpus=2 \ 
+# --train_summary_interval=1 

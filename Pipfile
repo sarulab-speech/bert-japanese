@@ -18,7 +18,6 @@ tokenizers = "==0.9.2"
 transformers = "==3.4.0"
 unidic = "==1.0.2"
 unidic-lite = "==1.0.7"
-tf-nightly-gpu = "*"
 
 [requires]
 python_version = "3.8"
